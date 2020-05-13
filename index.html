@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>&lt;model-viewer&gt; Augmented Reality</title>
+  <title>ZENITH Interiors - Epic Plus - Model Viewer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no,
   minimum-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-
-  <!-- 💁 Include both scripts below to support all browsers! -->
+<!-- 💁 Include both scripts below to support all browsers! -->
 
   <!-- Loads <model-viewer> for modern browsers: -->
   <script type="module"
@@ -37,16 +35,24 @@
   <!-- 💁 OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>-->
 
+<style type="text/css">
+@import url("styles.css");
+</style>
 </head>
 <body>
-  <model-viewer src="assets/MR_Epic.gltf" 
+	<img src="../../../Pictures/ZENITH-Logo-90k.png" width="100%" alt=""/>
+	
+	<br>
+	<model-viewer src="assets/MR_Epic.gltf" 
                 ios-src="assets/MR_Epic.usdz"
                 ar
                 auto-rotate 
                 camera-controls 
                 shadow-intensity="1" 
-                alt="A 3D model of a workstation" background-color="#70BCD1">
-                  
-  </model-viewer>
+                alt="A 3D model of a workstation" background-color="#70BCD1"> </model-viewer>
+<br>
+	<p> </br>
+	  </br>
+	  EPIC PLUS - <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://jonathan-bryant.github.io/zenith-ar/assets/MR_Epic.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">SEE IT IN AUGMENTED REALITY</a></p>
 </body>
 </html>
