@@ -5,6 +5,23 @@
  "nodes" : [
   {
    "name" : "Jac_Side_Architectural_MR",
+   "matrix" : [
+    1,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    -0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1],
    "mesh" : 0},
   {
    "name" : "Root",
