@@ -53,7 +53,7 @@
  "buffers" : [
   {
    "byteLength" : 4816688,
-   "uri" : "BeLite Drafting Chair.bin"}],
+   "uri" : "BeLite_Drafting_Chair.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
@@ -190,25 +190,25 @@
       "TEXCOORD_0" : 6}}]}],
  "materials" : [
   {
-   "name" : "new PBR",
+   "name" : "new PBR_4",
    "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
+    "baseColorFactor" : [0.101961, 0.101961, 0.101961, 1.000000],
     "metallicFactor" : 0.59239,
     "roughnessFactor" : 0.3587}},
   {
-   "name" : "black  body",
+   "name" : "black  body_2",
    "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
+    "baseColorFactor" : [0.117647, 0.117647, 0.117647, 1.000000],
     "metallicFactor" : 0,
     "roughnessFactor" : 0.84511}},
   {
-   "name" : "Purple",
+   "name" : "Purple_2",
    "pbrMetallicRoughness" : {
     "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
     "metallicFactor" : 0,
     "roughnessFactor" : 0.58967}},
   {
-   "name" : "new PBR",
+   "name" : "new PBR_2",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
      "index" : 0,
