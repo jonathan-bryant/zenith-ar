@@ -4,7 +4,7 @@
   "version" : "2.0"},
  "nodes" : [
   {
-   "name" : "Belite Drafting Chair",
+   "name" : "BeLite Drafting Chair",
    "matrix" : [
     1,
     0,
@@ -52,92 +52,70 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 1888284,
+   "byteLength" : 4816688,
    "uri" : "BeLite Drafting Chair.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 231468,
+   "byteLength" : 581520,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 231468,
-   "byteLength" : 828408,
+   "byteOffset" : 581520,
+   "byteLength" : 3176376,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 1336012,
-   "byteLength" : 552272,
-   "byteStride" : 16,
-   "target" : 34962},
-  {
-   "buffer" : 0,
-   "byteOffset" : 1059876,
-   "byteLength" : 276136,
+   "byteOffset" : 3757896,
+   "byteLength" : 1058792,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 8550,
-   "componentType" : 5123,
+   "count" : 5706,
+   "componentType" : 5125,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
-    12860],
+    108158],
    "max" : [
-    34516]},
+    111609]},
   {
    "bufferView" : 0,
-   "count" : 85788,
-   "componentType" : 5123,
+   "count" : 118278,
+   "componentType" : 5125,
    "type" : "SCALAR",
-   "byteOffset" : 17100,
+   "byteOffset" : 22824,
    "min" : [
     0],
    "max" : [
-    33022]},
+    132348]},
   {
    "bufferView" : 0,
    "count" : 13356,
-   "componentType" : 5123,
+   "componentType" : 5125,
    "type" : "SCALAR",
-   "byteOffset" : 188676,
+   "byteOffset" : 495936,
    "min" : [
-    356],
+    18073],
    "max" : [
-    14030]},
+    41745]},
   {
    "bufferView" : 0,
    "count" : 8040,
-   "componentType" : 5123,
+   "componentType" : 5125,
    "type" : "SCALAR",
-   "byteOffset" : 215388,
+   "byteOffset" : 549360,
    "min" : [
-    15074],
+    43743],
    "max" : [
-    18900]},
-  {
-   "bufferView" : 2,
-   "count" : 34517,
-   "componentType" : 5126,
-   "type" : "VEC4",
-   "byteOffset" : 0,
-   "min" : [
-    0.000000,
-    0.000000,
-    0.000000,
-    1.000000],
-   "max" : [
-    0.000000,
-    0.000000,
-    0.000000,
-    1.000000]},
+    51612]},
   {
    "bufferView" : 1,
-   "count" : 34517,
+   "count" : 132349,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
@@ -151,10 +129,10 @@
     1124.827515]},
   {
    "bufferView" : 1,
-   "count" : 34517,
+   "count" : 132349,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 414204,
+   "byteOffset" : 1588188,
    "min" : [
     -1,
     -1,
@@ -164,16 +142,16 @@
     1,
     1]},
   {
-   "bufferView" : 3,
-   "count" : 34517,
+   "bufferView" : 2,
+   "count" : 132349,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
    "min" : [
     0,
-    0.339439],
+    0.060529],
    "max" : [
-    0.316624,
+    0.952135,
     1]}],
  "meshes" : [
   {
@@ -183,37 +161,33 @@
      "material" : 0,
      "indices" : 0,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TANGENT" : 4,
-      "TEXCOORD_0" : 7}},
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6}},
     {
      "mode" : 4,
      "material" : 1,
      "indices" : 1,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TANGENT" : 4,
-      "TEXCOORD_0" : 7}},
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6}},
     {
      "mode" : 4,
      "material" : 2,
      "indices" : 2,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TANGENT" : 4,
-      "TEXCOORD_0" : 7}},
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6}},
     {
      "mode" : 4,
      "material" : 3,
      "indices" : 3,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TANGENT" : 4,
-      "TEXCOORD_0" : 7}}]}],
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6}}]}],
  "materials" : [
   {
    "name" : "new PBR",
