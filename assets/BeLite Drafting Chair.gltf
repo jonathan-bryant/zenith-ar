@@ -52,70 +52,92 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 3802480,
+   "byteLength" : 1888284,
    "uri" : "BeLite Drafting Chair.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 465264,
+   "byteLength" : 231468,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 465264,
-   "byteLength" : 2502912,
+   "byteOffset" : 231468,
+   "byteLength" : 828408,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 2968176,
-   "byteLength" : 834304,
+   "byteOffset" : 1336012,
+   "byteLength" : 552272,
+   "byteStride" : 16,
+   "target" : 34962},
+  {
+   "buffer" : 0,
+   "byteOffset" : 1059876,
+   "byteLength" : 276136,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 88236,
-   "componentType" : 5125,
+   "count" : 8550,
+   "componentType" : 5123,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
-    3400],
+    12860],
    "max" : [
-    104287]},
+    34516]},
   {
    "bufferView" : 0,
-   "count" : 14490,
-   "componentType" : 5125,
+   "count" : 85788,
+   "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 352944,
-   "min" : [
-    56471],
-   "max" : [
-    73168]},
-  {
-   "bufferView" : 0,
-   "count" : 5514,
-   "componentType" : 5125,
-   "type" : "SCALAR",
-   "byteOffset" : 410904,
+   "byteOffset" : 17100,
    "min" : [
     0],
    "max" : [
-    3399]},
+    33022]},
   {
    "bufferView" : 0,
-   "count" : 8076,
-   "componentType" : 5125,
+   "count" : 13356,
+   "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 432960,
+   "byteOffset" : 188676,
    "min" : [
-    38560],
+    356],
    "max" : [
-    46441]},
+    14030]},
+  {
+   "bufferView" : 0,
+   "count" : 8040,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 215388,
+   "min" : [
+    15074],
+   "max" : [
+    18900]},
+  {
+   "bufferView" : 2,
+   "count" : 34517,
+   "componentType" : 5126,
+   "type" : "VEC4",
+   "byteOffset" : 0,
+   "min" : [
+    0.000000,
+    0.000000,
+    0.000000,
+    1.000000],
+   "max" : [
+    0.000000,
+    0.000000,
+    0.000000,
+    1.000000]},
   {
    "bufferView" : 1,
-   "count" : 104288,
+   "count" : 34517,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
@@ -129,10 +151,10 @@
     1124.827515]},
   {
    "bufferView" : 1,
-   "count" : 104288,
+   "count" : 34517,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 1251456,
+   "byteOffset" : 414204,
    "min" : [
     -1,
     -1,
@@ -142,8 +164,8 @@
     1,
     1]},
   {
-   "bufferView" : 2,
-   "count" : 104288,
+   "bufferView" : 3,
+   "count" : 34517,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
@@ -161,34 +183,44 @@
      "material" : 0,
      "indices" : 0,
      "attributes" : {
-      "POSITION" : 4,
-      "NORMAL" : 5,
-      "TEXCOORD_0" : 6}},
+      "POSITION" : 5,
+      "NORMAL" : 6,
+      "TANGENT" : 4,
+      "TEXCOORD_0" : 7}},
     {
      "mode" : 4,
      "material" : 1,
      "indices" : 1,
      "attributes" : {
-      "POSITION" : 4,
-      "NORMAL" : 5,
-      "TEXCOORD_0" : 6}},
+      "POSITION" : 5,
+      "NORMAL" : 6,
+      "TANGENT" : 4,
+      "TEXCOORD_0" : 7}},
     {
      "mode" : 4,
      "material" : 2,
      "indices" : 2,
      "attributes" : {
-      "POSITION" : 4,
-      "NORMAL" : 5,
-      "TEXCOORD_0" : 6}},
+      "POSITION" : 5,
+      "NORMAL" : 6,
+      "TANGENT" : 4,
+      "TEXCOORD_0" : 7}},
     {
      "mode" : 4,
      "material" : 3,
      "indices" : 3,
      "attributes" : {
-      "POSITION" : 4,
-      "NORMAL" : 5,
-      "TEXCOORD_0" : 6}}]}],
+      "POSITION" : 5,
+      "NORMAL" : 6,
+      "TANGENT" : 4,
+      "TEXCOORD_0" : 7}}]}],
  "materials" : [
+  {
+   "name" : "new PBR",
+   "pbrMetallicRoughness" : {
+    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
+    "metallicFactor" : 0.59239,
+    "roughnessFactor" : 0.3587}},
   {
    "name" : "black  body",
    "pbrMetallicRoughness" : {
@@ -201,12 +233,6 @@
     "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
     "metallicFactor" : 0,
     "roughnessFactor" : 0.58967}},
-  {
-   "name" : "new PBR",
-   "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
-    "metallicFactor" : 0.59239,
-    "roughnessFactor" : 0.3587}},
   {
    "name" : "new PBR",
    "pbrMetallicRoughness" : {
