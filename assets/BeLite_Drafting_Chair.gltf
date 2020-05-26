@@ -193,20 +193,20 @@
    "name" : "new PBR_4",
    "pbrMetallicRoughness" : {
     "baseColorFactor" : [0.101961, 0.101961, 0.101961, 1.000000],
-    "metallicFactor" : 0.59239,
-    "roughnessFactor" : 0.3587}},
+    "metallicFactor" : 0.76902,
+    "roughnessFactor" : 0.92663}},
   {
    "name" : "black  body_2",
    "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.117647, 0.117647, 0.117647, 1.000000],
+    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
     "metallicFactor" : 0,
-    "roughnessFactor" : 0.84511}},
+    "roughnessFactor" : 0.96467}},
   {
    "name" : "Purple_2",
    "pbrMetallicRoughness" : {
     "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
-    "metallicFactor" : 0,
-    "roughnessFactor" : 0.58967}},
+    "metallicFactor" : 0.52174,
+    "roughnessFactor" : 0.93207}},
   {
    "name" : "new PBR_2",
    "pbrMetallicRoughness" : {
