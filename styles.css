@@ -65,3 +65,11 @@ footer {
   font-style: italic;
   line-height: 1.5em;
 }
+#content {
+    min-width: 320px;
+    max-width: 1366px;
+    max-height: 1366px;
+}
+#ar-content {
+    height: 75vh;
+}
