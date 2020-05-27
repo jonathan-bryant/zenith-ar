@@ -32,8 +32,8 @@ body {
 }
 
 model-viewer {
-  width: 100%;
-  height: 400px;
+    width: 100%;
+    height: 85vh;
 }
 
 .attribution {
@@ -72,7 +72,4 @@ footer {
 }
 #ar-content {
     height: 75vh;
-}
-
-@media screen and (height:80vh){
 }
