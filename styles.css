@@ -73,3 +73,6 @@ footer {
 #ar-content {
     height: 75vh;
 }
+
+@media screen and (height:80vh){
+}
