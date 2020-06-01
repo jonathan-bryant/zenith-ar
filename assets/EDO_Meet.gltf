@@ -75,42 +75,42 @@
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 222,
+   "count" : 9807,
    "componentType" : 5123,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
     0],
    "max" : [
-    173]},
+    8915]},
   {
    "bufferView" : 0,
    "count" : 924,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 444,
+   "byteOffset" : 19616,
    "min" : [
-    174],
+    8916],
    "max" : [
-    1026]},
+    9768]},
   {
    "bufferView" : 0,
    "count" : 2688,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 2292,
+   "byteOffset" : 21464,
    "min" : [
-    1027],
+    9769],
    "max" : [
-    3220]},
+    11962]},
   {
    "bufferView" : 0,
-   "count" : 9807,
+   "count" : 222,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 7668,
+   "byteOffset" : 26840,
    "min" : [
-    3221],
+    11963],
    "max" : [
     12136]},
   {
@@ -148,11 +148,11 @@
    "type" : "VEC2",
    "byteOffset" : 0,
    "min" : [
-    0.000977,
-    0.001955],
+    0.000136,
+    -4.688536],
    "max" : [
-    0.99605,
-    0.999023]},
+    4.599464,
+    1]},
   {
    "bufferView" : 2,
    "count" : 12137,
@@ -206,13 +206,14 @@
       "TEXCOORD_1" : 7}}]}],
  "materials" : [
   {
-   "name" : "Color #ff7f00ff_1",
+   "name" : "Color #ff7f00ff",
+   "alphaMode" : "BLEND",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
      "index" : 0,
      "texCoord" : 0},
     "metallicFactor" : 0,
-    "roughnessFactor" : 0.43575},
+    "roughnessFactor" : 1},
    "normalTexture" : {
     "index" : 1,
     "texCoord" : 0}},
@@ -235,14 +236,13 @@
     "metallicFactor" : 0.40489,
     "roughnessFactor" : 0.66033}},
   {
-   "name" : "Color #ff7f00ff",
-   "alphaMode" : "BLEND",
+   "name" : "Color #ff7f00ff_1",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
      "index" : 4,
      "texCoord" : 0},
     "metallicFactor" : 0,
-    "roughnessFactor" : 1},
+    "roughnessFactor" : 0.43575},
    "normalTexture" : {
     "index" : 5,
     "texCoord" : 0}}],
@@ -270,14 +270,14 @@
    "sampler" : 0}],
  "images" : [
   {
-   "uri" : "img1.png"},
+   "uri" : "img5.png"},
   {
-   "uri" : "img0.png"},
+   "uri" : "img4.png"},
   {
    "uri" : "img3.png"},
   {
    "uri" : "img2.png"},
   {
-   "uri" : "img5.png"},
+   "uri" : "img1.png"},
   {
-   "uri" : "img4.png"}]}
+   "uri" : "img0.png"}]}
