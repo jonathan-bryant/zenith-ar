@@ -212,8 +212,8 @@
     "baseColorTexture" : {
      "index" : 0,
      "texCoord" : 0},
-    "metallicFactor" : 0,
-    "roughnessFactor" : 1},
+    "metallicFactor" : 0.02235,
+    "roughnessFactor" : 0.96927},
    "normalTexture" : {
     "index" : 1,
     "texCoord" : 0}},
@@ -224,8 +224,8 @@
     "baseColorTexture" : {
      "index" : 2,
      "texCoord" : 0},
-    "metallicFactor" : 0,
-    "roughnessFactor" : 1},
+    "metallicFactor" : 0.02235,
+    "roughnessFactor" : 0.98883},
    "normalTexture" : {
     "index" : 3,
     "texCoord" : 0}},
