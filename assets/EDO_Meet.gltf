@@ -52,70 +52,70 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 512764,
+   "byteLength" : 296892,
    "uri" : "EDO_Meet.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 27284,
+   "byteLength" : 27092,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 27284,
-   "byteLength" : 291288,
+   "byteOffset" : 27092,
+   "byteLength" : 161880,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 318572,
-   "byteLength" : 194192,
+   "byteOffset" : 188972,
+   "byteLength" : 107920,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 9807,
+   "count" : 858,
    "componentType" : 5123,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
     0],
    "max" : [
-    8915]},
+    452]},
   {
    "bufferView" : 0,
-   "count" : 924,
+   "count" : 9777,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 19616,
+   "byteOffset" : 1716,
    "min" : [
-    8916],
+    453],
    "max" : [
-    9768]},
+    5328]},
   {
    "bufferView" : 0,
    "count" : 2688,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 21464,
+   "byteOffset" : 21272,
    "min" : [
-    9769],
+    5329],
    "max" : [
-    11962]},
+    6640]},
   {
    "bufferView" : 0,
    "count" : 222,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 26840,
+   "byteOffset" : 26648,
    "min" : [
-    11963],
+    6641],
    "max" : [
-    12136]},
+    6744]},
   {
    "bufferView" : 1,
-   "count" : 12137,
+   "count" : 6745,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
@@ -129,10 +129,10 @@
     1400000]},
   {
    "bufferView" : 1,
-   "count" : 12137,
+   "count" : 6745,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 145644,
+   "byteOffset" : 80940,
    "min" : [
     -1,
     -1,
@@ -143,7 +143,7 @@
     1]},
   {
    "bufferView" : 2,
-   "count" : 12137,
+   "count" : 6745,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
@@ -155,10 +155,10 @@
     1]},
   {
    "bufferView" : 2,
-   "count" : 12137,
+   "count" : 6745,
    "componentType" : 5126,
    "type" : "VEC2",
-   "byteOffset" : 97096,
+   "byteOffset" : 53960,
    "min" : [
     0.005359,
     -63.644638],
@@ -206,7 +206,7 @@
       "TEXCOORD_1" : 7}}]}],
  "materials" : [
   {
-   "name" : "Color #ff7f00ff",
+   "name" : "Color #808080ff",
    "alphaMode" : "BLEND",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
@@ -218,7 +218,7 @@
     "index" : 1,
     "texCoord" : 0}},
   {
-   "name" : "Color #808080ff",
+   "name" : "Color #ff7f00ff",
    "alphaMode" : "BLEND",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
@@ -270,13 +270,13 @@
    "sampler" : 0}],
  "images" : [
   {
-   "uri" : "img5.png"},
-  {
-   "uri" : "img4.png"},
-  {
    "uri" : "img3.png"},
   {
    "uri" : "img2.png"},
+  {
+   "uri" : "img5.png"},
+  {
+   "uri" : "img4.png"},
   {
    "uri" : "img1.png"},
   {
