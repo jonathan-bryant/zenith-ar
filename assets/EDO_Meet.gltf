@@ -6,16 +6,16 @@
   {
    "name" : "EDO Meet",
    "matrix" : [
-    1,
+    0.001,
     0,
     0,
     0,
     0,
     0,
-    -1,
+    -0.001,
     0,
     0,
-    1,
+    0.001,
     0,
     0,
     0,
@@ -52,7 +52,7 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 402204,
+   "byteLength" : 512764,
    "uri" : "EDO_Meet.bin"}],
  "bufferViews" : [
   {
@@ -63,13 +63,13 @@
   {
    "buffer" : 0,
    "byteOffset" : 27284,
-   "byteLength" : 224952,
+   "byteLength" : 291288,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 252236,
-   "byteLength" : 149968,
+   "byteOffset" : 318572,
+   "byteLength" : 194192,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
@@ -82,57 +82,57 @@
    "min" : [
     0],
    "max" : [
-    115]},
-  {
-   "bufferView" : 0,
-   "count" : 9807,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 444,
-   "min" : [
-    116],
-   "max" : [
-    7162]},
+    173]},
   {
    "bufferView" : 0,
    "count" : 924,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 20060,
+   "byteOffset" : 444,
    "min" : [
-    7163],
+    174],
    "max" : [
-    7784]},
+    1026]},
   {
    "bufferView" : 0,
    "count" : 2688,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 21908,
+   "byteOffset" : 2292,
    "min" : [
-    7785],
+    1027],
    "max" : [
-    9372]},
+    3220]},
+  {
+   "bufferView" : 0,
+   "count" : 9807,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 7668,
+   "min" : [
+    3221],
+   "max" : [
+    12136]},
   {
    "bufferView" : 1,
-   "count" : 9373,
+   "count" : 12137,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
    "min" : [
-    -1150,
-    -715.000061,
+    -1150000,
+    -715000.0625,
     -0],
    "max" : [
-    1150,
-    715.000061,
-    1400]},
+    1150000,
+    715000.0625,
+    1400000]},
   {
    "bufferView" : 1,
-   "count" : 9373,
+   "count" : 12137,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 112476,
+   "byteOffset" : 145644,
    "min" : [
     -1,
     -1,
@@ -143,7 +143,7 @@
     1]},
   {
    "bufferView" : 2,
-   "count" : 9373,
+   "count" : 12137,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
@@ -155,10 +155,10 @@
     0.999023]},
   {
    "bufferView" : 2,
-   "count" : 9373,
+   "count" : 12137,
    "componentType" : 5126,
    "type" : "VEC2",
-   "byteOffset" : 74984,
+   "byteOffset" : 97096,
    "min" : [
     0.005359,
     -63.644638],
@@ -217,7 +217,7 @@
     "index" : 1,
     "texCoord" : 0}},
   {
-   "name" : "Color #ff7f00ff",
+   "name" : "Color #808080ff",
    "alphaMode" : "BLEND",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
@@ -229,7 +229,13 @@
     "index" : 3,
     "texCoord" : 0}},
   {
-   "name" : "Color #808080ff",
+   "name" : "Color #ffffffff_1",
+   "pbrMetallicRoughness" : {
+    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
+    "metallicFactor" : 0.40489,
+    "roughnessFactor" : 0.66033}},
+  {
+   "name" : "Color #ff7f00ff",
    "alphaMode" : "BLEND",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
@@ -239,13 +245,7 @@
     "roughnessFactor" : 1},
    "normalTexture" : {
     "index" : 5,
-    "texCoord" : 0}},
-  {
-   "name" : "Color #ffffffff_1",
-   "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
-    "metallicFactor" : 0.40489,
-    "roughnessFactor" : 0.66033}}],
+    "texCoord" : 0}}],
  "samplers" : [
   {
 }],
@@ -274,10 +274,10 @@
   {
    "uri" : "img0.png"},
   {
-   "uri" : "img5.png"},
-  {
-   "uri" : "img4.png"},
-  {
    "uri" : "img3.png"},
   {
-   "uri" : "img2.png"}]}
+   "uri" : "img2.png"},
+  {
+   "uri" : "img5.png"},
+  {
+   "uri" : "img4.png"}]}
