@@ -4,6 +4,12 @@
   "version" : "2.0"},
  "nodes" : [
   {
+   "name" : "primitive 0",
+   "mesh" : 0},
+  {
+   "name" : "primitive 1",
+   "mesh" : 1},
+  {
    "name" : "JAC Sled",
    "matrix" : [
     1,
@@ -22,7 +28,9 @@
     0,
     0,
     1],
-   "mesh" : 0},
+   "children" : [
+    0,
+    1]},
   {
    "name" : "Root",
    "matrix" : [
@@ -43,12 +51,41 @@
     0,
     1],
    "children" : [
-    0]}],
+    2]},
+  {
+   "name" : "Root",
+   "children" : [
+    3]},
+  {
+   "name" : "Jac_Sled.gltf",
+   "children" : [
+    4]},
+  {
+   "name" : "Root",
+   "matrix" : [
+    0.001,
+    0,
+    0,
+    0,
+    0,
+    0.001,
+    0,
+    0,
+    0,
+    0,
+    0.001,
+    0,
+    0,
+    0,
+    0,
+    1],
+   "children" : [
+    5]}],
  "scenes" : [
   {
    "name" : "Root",
    "nodes" : [
-    1]}],
+    6]}],
  "scene" : 0,
  "buffers" : [
   {
@@ -76,7 +113,7 @@
    "min" : [
     0],
    "max" : [
-    5196]},
+    95]},
   {
    "bufferView" : 0,
    "count" : 15123,
@@ -84,29 +121,29 @@
    "type" : "SCALAR",
    "byteOffset" : 288,
    "min" : [
-    68],
+    0],
    "max" : [
-    11265]},
+    11169]},
   {
    "bufferView" : 1,
-   "count" : 11266,
+   "count" : 96,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
    "min" : [
-    -259.924255,
-    -265.426178,
-    -10.49544],
+    -259039.921875,
+    -187352.390625,
+    -10495.439453],
    "max" : [
-    259.924255,
-    262.338593,
-    823.03363]},
+    259039.921875,
+    187352.390625,
+    -8673.738281]},
   {
    "bufferView" : 1,
-   "count" : 11266,
+   "count" : 96,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 135192,
+   "byteOffset" : 1152,
    "min" : [
     -1,
     -1,
@@ -114,7 +151,35 @@
    "max" : [
     1,
     1,
-    1]}],
+    1]},
+  {
+   "bufferView" : 1,
+   "count" : 11170,
+   "componentType" : 5126,
+   "type" : "VEC3",
+   "byteOffset" : 2304,
+   "min" : [
+    -259924.25,
+    -265426.1875,
+    -9924.254883],
+   "max" : [
+    259924.25,
+    262338.59375,
+    823033.625]},
+  {
+   "bufferView" : 1,
+   "count" : 11170,
+   "componentType" : 5126,
+   "type" : "VEC3",
+   "byteOffset" : 136344,
+   "min" : [
+    -0.999989,
+    -0.999673,
+    -0.99997],
+   "max" : [
+    0.999989,
+    0.999673,
+    0.999989]}],
  "meshes" : [
   {
    "primitives" : [
@@ -124,14 +189,16 @@
      "indices" : 0,
      "attributes" : {
       "POSITION" : 2,
-      "NORMAL" : 3}},
+      "NORMAL" : 3}}]},
+  {
+   "primitives" : [
     {
      "mode" : 4,
      "material" : 1,
      "indices" : 1,
      "attributes" : {
-      "POSITION" : 2,
-      "NORMAL" : 3}}]}],
+      "POSITION" : 4,
+      "NORMAL" : 5}}]}],
  "materials" : [
   {
    "name" : "Color #ffffffff",
@@ -143,7 +210,7 @@
    "name" : "Color #ff7f00ff",
    "pbrMetallicRoughness" : {
     "baseColorFactor" : [0.435294, 0.513725, 0.431373, 1.000000],
-    "metallicFactor" : 0,
+    "metallicFactor" : 0.41033,
     "roughnessFactor" : 1}}],
  "samplers" : [
   {
