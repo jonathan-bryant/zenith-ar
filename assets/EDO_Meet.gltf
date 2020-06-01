@@ -52,24 +52,24 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 327428,
+   "byteLength" : 402204,
    "uri" : "EDO_Meet.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 27652,
+   "byteLength" : 27284,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 27652,
-   "byteLength" : 224832,
+   "byteOffset" : 27284,
+   "byteLength" : 224952,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 252484,
-   "byteLength" : 74944,
+   "byteOffset" : 252236,
+   "byteLength" : 149968,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
@@ -80,52 +80,42 @@
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
-    510],
+    0],
    "max" : [
-    8775]},
+    115]},
+  {
+   "bufferView" : 0,
+   "count" : 9807,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 444,
+   "min" : [
+    116],
+   "max" : [
+    7162]},
+  {
+   "bufferView" : 0,
+   "count" : 924,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 20060,
+   "min" : [
+    7163],
+   "max" : [
+    7784]},
   {
    "bufferView" : 0,
    "count" : 2688,
    "componentType" : 5123,
    "type" : "SCALAR",
-   "byteOffset" : 444,
+   "byteOffset" : 21908,
    "min" : [
-    0],
+    7785],
    "max" : [
-    9331]},
-  {
-   "bufferView" : 0,
-   "count" : 9219,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 5820,
-   "min" : [
-    192],
-   "max" : [
-    9367]},
-  {
-   "bufferView" : 0,
-   "count" : 999,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 24260,
-   "min" : [
-    220],
-   "max" : [
-    9339]},
-  {
-   "bufferView" : 0,
-   "count" : 696,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 26260,
-   "min" : [
-    396],
-   "max" : [
-    9363]},
+    9372]},
   {
    "bufferView" : 1,
-   "count" : 9368,
+   "count" : 9373,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
@@ -139,10 +129,10 @@
     1400]},
   {
    "bufferView" : 1,
-   "count" : 9368,
+   "count" : 9373,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 112416,
+   "byteOffset" : 112476,
    "min" : [
     -1,
     -1,
@@ -153,7 +143,7 @@
     1]},
   {
    "bufferView" : 2,
-   "count" : 9368,
+   "count" : 9373,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
@@ -162,7 +152,19 @@
     0.001955],
    "max" : [
     0.99605,
-    0.999023]}],
+    0.999023]},
+  {
+   "bufferView" : 2,
+   "count" : 9373,
+   "componentType" : 5126,
+   "type" : "VEC2",
+   "byteOffset" : 74984,
+   "min" : [
+    0.005359,
+    -63.644638],
+   "max" : [
+    64.5,
+    -3.351363]}],
  "meshes" : [
   {
    "primitives" : [
@@ -171,41 +173,37 @@
      "material" : 0,
      "indices" : 0,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TEXCOORD_0" : 7}},
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6,
+      "TEXCOORD_1" : 7}},
     {
      "mode" : 4,
      "material" : 1,
      "indices" : 1,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TEXCOORD_0" : 7}},
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6,
+      "TEXCOORD_1" : 7}},
     {
      "mode" : 4,
      "material" : 2,
      "indices" : 2,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TEXCOORD_0" : 7}},
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6,
+      "TEXCOORD_1" : 7}},
     {
      "mode" : 4,
      "material" : 3,
      "indices" : 3,
      "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TEXCOORD_0" : 7}},
-    {
-     "mode" : 4,
-     "material" : 2,
-     "indices" : 4,
-     "attributes" : {
-      "POSITION" : 5,
-      "NORMAL" : 6,
-      "TEXCOORD_0" : 7}}]}],
+      "POSITION" : 4,
+      "NORMAL" : 5,
+      "TEXCOORD_0" : 6,
+      "TEXCOORD_1" : 7}}]}],
  "materials" : [
   {
    "name" : "Color #ff7f00ff_1",
@@ -218,12 +216,6 @@
    "normalTexture" : {
     "index" : 1,
     "texCoord" : 0}},
-  {
-   "name" : "Color #ffffffff_1",
-   "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
-    "metallicFactor" : 0.40489,
-    "roughnessFactor" : 0.66033}},
   {
    "name" : "Color #ff7f00ff",
    "alphaMode" : "BLEND",
@@ -247,7 +239,13 @@
     "roughnessFactor" : 1},
    "normalTexture" : {
     "index" : 5,
-    "texCoord" : 0}}],
+    "texCoord" : 0}},
+  {
+   "name" : "Color #ffffffff_1",
+   "pbrMetallicRoughness" : {
+    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
+    "metallicFactor" : 0.40489,
+    "roughnessFactor" : 0.66033}}],
  "samplers" : [
   {
 }],
