@@ -52,34 +52,34 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 549416,
+   "byteLength" : 511464,
    "uri" : "JAC_Stool.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 45152,
+   "byteLength" : 51456,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 45152,
-   "byteLength" : 504264,
+   "byteOffset" : 51456,
+   "byteLength" : 460008,
    "byteStride" : 12,
    "target" : 34962}],
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 22575,
+   "count" : 25728,
    "componentType" : 5123,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
     0],
    "max" : [
-    21010]},
+    19166]},
   {
    "bufferView" : 1,
-   "count" : 21011,
+   "count" : 19167,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
@@ -93,14 +93,14 @@
     919.747375]},
   {
    "bufferView" : 1,
-   "count" : 21011,
+   "count" : 19167,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 252132,
+   "byteOffset" : 230004,
    "min" : [
     -1,
     -1,
-    -0.999995],
+    -0.99996],
    "max" : [
     1,
     1,

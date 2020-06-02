@@ -4,7 +4,7 @@
   "version" : "2.0"},
  "nodes" : [
   {
-   "name" : "9F2F",
+   "name" : "9F28",
    "matrix" : [
     1,
     0,
@@ -52,110 +52,62 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 471360,
+   "byteLength" : 396360,
    "uri" : "Jac_Sled_Custom.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 43712,
+   "byteLength" : 43704,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 43712,
-   "byteLength" : 320736,
+   "byteOffset" : 43704,
+   "byteLength" : 176328,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 364448,
-   "byteLength" : 106912,
+   "byteOffset" : 278808,
+   "byteLength" : 117552,
+   "byteStride" : 16,
+   "target" : 34962},
+  {
+   "buffer" : 0,
+   "byteOffset" : 220032,
+   "byteLength" : 58776,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 144,
+   "count" : 21852,
    "componentType" : 5123,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
     0],
    "max" : [
-    95]},
+    7346]},
   {
-   "bufferView" : 0,
-   "count" : 5469,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 288,
+   "bufferView" : 2,
+   "count" : 7347,
+   "componentType" : 5126,
+   "type" : "VEC4",
+   "byteOffset" : 0,
    "min" : [
-    96],
+    -0.033422,
+    -0.105299,
+    0.993879,
+    1.000000],
    "max" : [
-    2782]},
-  {
-   "bufferView" : 0,
-   "count" : 2034,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 11228,
-   "min" : [
-    2783],
-   "max" : [
-    4442]},
-  {
-   "bufferView" : 0,
-   "count" : 2652,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 15296,
-   "min" : [
-    4443],
-   "max" : [
-    6124]},
-  {
-   "bufferView" : 0,
-   "count" : 2250,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 20600,
-   "min" : [
-    6125],
-   "max" : [
-    7972]},
-  {
-   "bufferView" : 0,
-   "count" : 2694,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 25100,
-   "min" : [
-    7973],
-   "max" : [
-    9663]},
-  {
-   "bufferView" : 0,
-   "count" : 1176,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 30488,
-   "min" : [
-    9664],
-   "max" : [
-    10713]},
-  {
-   "bufferView" : 0,
-   "count" : 5436,
-   "componentType" : 5123,
-   "type" : "SCALAR",
-   "byteOffset" : 32840,
-   "min" : [
-    10714],
-   "max" : [
-    13363]},
+    -0.033422,
+    -0.105299,
+    0.993879,
+    1.000000]},
   {
    "bufferView" : 1,
-   "count" : 13364,
+   "count" : 7347,
    "componentType" : 5126,
    "type" : "VEC3",
    "byteOffset" : 0,
@@ -169,30 +121,30 @@
     823.03363]},
   {
    "bufferView" : 1,
-   "count" : 13364,
+   "count" : 7347,
    "componentType" : 5126,
    "type" : "VEC3",
-   "byteOffset" : 160368,
+   "byteOffset" : 88164,
    "min" : [
-    -1,
-    -1,
-    -1],
+    -0.999814,
+    -0.99986,
+    -0.999988],
    "max" : [
-    1,
-    1,
-    1]},
+    0.999814,
+    0.999803,
+    0.999989]},
   {
-   "bufferView" : 2,
-   "count" : 13364,
+   "bufferView" : 3,
+   "count" : 7347,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
    "min" : [
-    0,
-    -0.583294],
+    0.000977,
+    0.004557],
    "max" : [
-    1.872342,
-    1]}],
+    0.969282,
+    0.999023]}],
  "meshes" : [
   {
    "primitives" : [
@@ -201,99 +153,26 @@
      "material" : 0,
      "indices" : 0,
      "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 1,
-     "indices" : 1,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 0,
-     "indices" : 2,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 1,
-     "indices" : 3,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 0,
-     "indices" : 4,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 1,
-     "indices" : 5,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 0,
-     "indices" : 6,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}},
-    {
-     "mode" : 4,
-     "material" : 1,
-     "indices" : 7,
-     "attributes" : {
-      "POSITION" : 8,
-      "NORMAL" : 9,
-      "TEXCOORD_0" : 10}}]}],
+      "POSITION" : 2,
+      "NORMAL" : 3,
+      "TANGENT" : 1,
+      "TEXCOORD_0" : 4}}]}],
  "materials" : [
   {
-   "name" : "Color #ffffffff_1",
-   "pbrMetallicRoughness" : {
-    "baseColorFactor" : [0.000000, 0.000000, 0.000000, 1.000000],
-    "metallicFactor" : 0.40489,
-    "roughnessFactor" : 0.66033}},
-  {
-   "name" : "Color #ff7f00ff",
-   "alphaMode" : "BLEND",
+   "name" : "Baked",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
+     "index" : 1,
+     "texCoord" : 0},
+    "metallicRoughnessTexture" : {
      "index" : 0,
-     "texCoord" : 0,
-     "extensions" : {
-      "KHR_texture_transform" : {
-       "offset" : [
-        0,
-        0],
-       "scale" : [
-        5,
-        5]}}},
-    "roughnessFactor" : 1},
+     "texCoord" : 0}},
    "normalTexture" : {
-    "index" : 1,
-    "texCoord" : 0,
-    "extensions" : {
-     "KHR_texture_transform" : {
-      "offset" : [
-       0,
-       0],
-      "scale" : [
-       5,
-       5]}}}}],
+    "index" : 2,
+    "texCoord" : 0},
+   "occlusionTexture" : {
+    "index" : 3,
+    "texCoord" : 0}}],
  "samplers" : [
   {
 }],
@@ -303,11 +182,19 @@
    "sampler" : 0},
   {
    "source" : 1,
+   "sampler" : 0},
+  {
+   "source" : 2,
+   "sampler" : 0},
+  {
+   "source" : 3,
    "sampler" : 0}],
  "images" : [
   {
-   "uri" : "Fog.png"},
+   "uri" : "BakedMetallicRoughness.png"},
   {
-   "uri" : "FabricWeaveCouch001_NRM_HIRES.png"}],
- "extensionsUsed" : [
-  "KHR_texture_transform"]}
+   "uri" : "Diffuse Map.png"},
+  {
+   "uri" : "ObjectSpace.png"},
+  {
+   "uri" : "AO Map.png"}]}
