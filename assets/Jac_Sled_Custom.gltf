@@ -4,23 +4,23 @@
   "version" : "2.0"},
  "nodes" : [
   {
-   "name" : "9F28",
+   "name" : "Curve003",
    "matrix" : [
-    1,
+    -0,
+    25.4,
     0,
     0,
     0,
     0,
+    -25.4,
     0,
-    -1,
-    0,
-    0,
-    1,
+    25.4,
     0,
     0,
     0,
-    0,
-    0,
+    0.029419,
+    141.917767,
+    -450.625208,
     1],
    "mesh" : 0},
   {
@@ -31,12 +31,12 @@
     0,
     0,
     0,
+    0,
+    -0.001,
+    0,
+    0,
     0.001,
     0,
-    0,
-    0,
-    0,
-    0.001,
     0,
     0,
     0,
@@ -52,99 +52,127 @@
  "scene" : 0,
  "buffers" : [
   {
-   "byteLength" : 396360,
+   "byteLength" : 615116,
    "uri" : "Jac_Sled_Custom.bin"}],
  "bufferViews" : [
   {
    "buffer" : 0,
    "byteOffset" : 0,
-   "byteLength" : 43704,
+   "byteLength" : 109964,
    "target" : 34963},
   {
    "buffer" : 0,
-   "byteOffset" : 43704,
-   "byteLength" : 176328,
+   "byteOffset" : 109964,
+   "byteLength" : 378864,
    "byteStride" : 12,
    "target" : 34962},
   {
    "buffer" : 0,
-   "byteOffset" : 278808,
-   "byteLength" : 117552,
-   "byteStride" : 16,
-   "target" : 34962},
-  {
-   "buffer" : 0,
-   "byteOffset" : 220032,
-   "byteLength" : 58776,
+   "byteOffset" : 488828,
+   "byteLength" : 126288,
    "byteStride" : 8,
    "target" : 34962}],
  "accessors" : [
   {
    "bufferView" : 0,
-   "count" : 21852,
+   "count" : 612,
    "componentType" : 5123,
    "type" : "SCALAR",
    "byteOffset" : 0,
    "min" : [
     0],
    "max" : [
-    7346]},
+    231]},
+  {
+   "bufferView" : 0,
+   "count" : 41280,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 1224,
+   "min" : [
+    232],
+   "max" : [
+    12073]},
+  {
+   "bufferView" : 0,
+   "count" : 1224,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 83784,
+   "min" : [
+    12074],
+   "max" : [
+    12537]},
+  {
+   "bufferView" : 0,
+   "count" : 339,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 86232,
+   "min" : [
+    12538],
+   "max" : [
+    12638]},
+  {
+   "bufferView" : 0,
+   "count" : 612,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 86912,
+   "min" : [
+    12639],
+   "max" : [
+    12870]},
+  {
+   "bufferView" : 0,
+   "count" : 10914,
+   "componentType" : 5123,
+   "type" : "SCALAR",
+   "byteOffset" : 88136,
+   "min" : [
+    12871],
+   "max" : [
+    15785]},
+  {
+   "bufferView" : 1,
+   "count" : 15786,
+   "componentType" : 5126,
+   "type" : "VEC3",
+   "byteOffset" : 0,
+   "min" : [
+    -12.963628,
+    -17.74115,
+    -10.493283],
+   "max" : [
+    7.877024,
+    14.712662,
+    10.490969]},
+  {
+   "bufferView" : 1,
+   "count" : 15786,
+   "componentType" : 5126,
+   "type" : "VEC3",
+   "byteOffset" : 189432,
+   "min" : [
+    -1,
+    -1,
+    -1],
+   "max" : [
+    1,
+    1,
+    1]},
   {
    "bufferView" : 2,
-   "count" : 7347,
-   "componentType" : 5126,
-   "type" : "VEC4",
-   "byteOffset" : 0,
-   "min" : [
-    -0.033422,
-    -0.105299,
-    0.993879,
-    1.000000],
-   "max" : [
-    -0.033422,
-    -0.105299,
-    0.993879,
-    1.000000]},
-  {
-   "bufferView" : 1,
-   "count" : 7347,
-   "componentType" : 5126,
-   "type" : "VEC3",
-   "byteOffset" : 0,
-   "min" : [
-    -259.924255,
-    -265.426178,
-    -10.49544],
-   "max" : [
-    259.924255,
-    262.338593,
-    823.03363]},
-  {
-   "bufferView" : 1,
-   "count" : 7347,
-   "componentType" : 5126,
-   "type" : "VEC3",
-   "byteOffset" : 88164,
-   "min" : [
-    -0.999814,
-    -0.99986,
-    -0.999988],
-   "max" : [
-    0.999814,
-    0.999803,
-    0.999989]},
-  {
-   "bufferView" : 3,
-   "count" : 7347,
+   "count" : 15786,
    "componentType" : 5126,
    "type" : "VEC2",
    "byteOffset" : 0,
    "min" : [
-    0.000977,
-    0.004557],
+    0,
+    -17.751806],
    "max" : [
-    0.969282,
-    0.999023]}],
+    15.990001,
+    0.997312]}],
  "meshes" : [
   {
    "primitives" : [
@@ -153,48 +181,77 @@
      "material" : 0,
      "indices" : 0,
      "attributes" : {
-      "POSITION" : 2,
-      "NORMAL" : 3,
-      "TANGENT" : 1,
-      "TEXCOORD_0" : 4}}]}],
+      "POSITION" : 6,
+      "NORMAL" : 7,
+      "TEXCOORD_0" : 8}},
+    {
+     "mode" : 4,
+     "material" : 1,
+     "indices" : 1,
+     "attributes" : {
+      "POSITION" : 6,
+      "NORMAL" : 7,
+      "TEXCOORD_0" : 8}},
+    {
+     "mode" : 4,
+     "material" : 0,
+     "indices" : 2,
+     "attributes" : {
+      "POSITION" : 6,
+      "NORMAL" : 7,
+      "TEXCOORD_0" : 8}},
+    {
+     "mode" : 4,
+     "material" : 2,
+     "indices" : 3,
+     "attributes" : {
+      "POSITION" : 6,
+      "NORMAL" : 7,
+      "TEXCOORD_0" : 8}},
+    {
+     "mode" : 4,
+     "material" : 0,
+     "indices" : 4,
+     "attributes" : {
+      "POSITION" : 6,
+      "NORMAL" : 7,
+      "TEXCOORD_0" : 8}},
+    {
+     "mode" : 4,
+     "material" : 1,
+     "indices" : 5,
+     "attributes" : {
+      "POSITION" : 6,
+      "NORMAL" : 7,
+      "TEXCOORD_0" : 8}}]}],
  "materials" : [
   {
-   "name" : "Baked",
+   "name" : "Material #26",
+   "pbrMetallicRoughness" : {
+    "baseColorFactor" : [0.333333, 0.341176, 0.349020, 1.000000],
+    "metallicFactor" : 0,
+    "roughnessFactor" : 0}},
+  {
+   "name" : "Material #94",
+   "pbrMetallicRoughness" : {
+    "baseColorFactor" : [0.360784, 0.521569, 0.352941, 1.000000],
+    "metallicFactor" : 0,
+    "roughnessFactor" : 1}},
+  {
+   "name" : "Standard",
    "pbrMetallicRoughness" : {
     "baseColorTexture" : {
-     "index" : 1,
-     "texCoord" : 0},
-    "metallicRoughnessTexture" : {
      "index" : 0,
-     "texCoord" : 0}},
-   "normalTexture" : {
-    "index" : 2,
-    "texCoord" : 0},
-   "occlusionTexture" : {
-    "index" : 3,
-    "texCoord" : 0}}],
+     "texCoord" : 0},
+    "metallicFactor" : 0,
+    "roughnessFactor" : 0.81793}}],
  "samplers" : [
   {
 }],
  "textures" : [
   {
    "source" : 0,
-   "sampler" : 0},
-  {
-   "source" : 1,
-   "sampler" : 0},
-  {
-   "source" : 2,
-   "sampler" : 0},
-  {
-   "source" : 3,
    "sampler" : 0}],
  "images" : [
   {
-   "uri" : "BakedMetallicRoughness.png"},
-  {
-   "uri" : "Diffuse Map.png"},
-  {
-   "uri" : "ObjectSpace.png"},
-  {
-   "uri" : "AO Map.png"}]}
+   "uri" : "458640059_detail.png"}]}
